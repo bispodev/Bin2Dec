@@ -18,14 +18,16 @@ body {
     text-align: start;
 }
 
-input, button {
+input,
+button {
     margin: 10px;
     height: 30px;
     border: none;
     -moz-appearance: textfield;
 }
 
-input:focus, button {
+input:focus,
+button {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
@@ -43,6 +45,21 @@ button {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+/* Footer */
+
+.footer {
+    margin-top: 50%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 /* Removendo os botões do input */
 
