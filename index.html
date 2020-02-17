@@ -9,11 +9,14 @@
 </head>
 
 <body>
-    <form action="" method="Post">
-        <input type="number" maxlength="8" name="bin">
-        <input type="number" maxlength="8" name="decimal">
-        <input type="submit" value="Converter">
-    </form>
+    <div class="form">
+        <h2>Bin to Dec</h2>
+        <input placeholder="Binario" type="number" maxlength="8" name="bin" required>
+        <input placeholder="Decimal" type="number" maxlength="8" name="decimal" readonly="false">
+        <button  value="Converter" onclick="binToDec()"> Converter</button>
+    </div>
+
+    <script type="text/javascript" src="js/server.js"></script>
 </body>
 
 </html>
